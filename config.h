@@ -97,6 +97,10 @@ unsigned int tabspaces = 8;
 static const char *colorname[] = {
 
 	/* Material */
+	/* Sources:
+		-	https://allthings.how/windows-terminal-themes-light-dark-colorful/#windows-terminal-light-themes
+		- https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/windowsterminal/Material.json
+	*/
   "#efefef",
 	"#b7141f",
 	"#457b24",
