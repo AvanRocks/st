@@ -95,47 +95,23 @@ unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-
-	/* Material */
-  "#efefef",
-	"#b7141f",
-	"#457b24",
-	"#f6981e",
-	"#134eb2",
-	"#560088",
-	"#0e717c",
-	"#212121",
-	"#d9d9d9",
-	"#e83b3f",
-	"#7aba3a",
-	"#ffea2e",
-	"#54a4f3",
-	"#aa4dbc",
-	"#26bbd1",
-	"#424242",
-
-	[255] = 0,
-
-  "#eaeaea", /* background */
-  "#232322", /* foreground */
-
 	/* solarized light */
-	//"#eee8d5",  /*  0: black    */
-	//"#dc322f",  /*  1: red      */
-	//"#859900",  /*  2: green    */
-	//"#b58900",  /*  3: yellow   */
-	//"#268bd2",  /*  4: blue     */
-	//"#d33682",  /*  5: magenta  */
-	//"#2aa198",  /*  6: cyan     */
-	//"#073642",  /*  7: white    */
-	//"#fdf6e3",  /*  8: brblack  */
-	//"#cb4b16",  /*  9: brred    */
-	//"#93a1a1",  /* 10: brgreen  */
-	//"#839496",  /* 11: bryellow */
-	//"#657b83",  /* 12: brblue   */
-	//"#6c71c4",  /* 13: brmagenta*/
-	//"#586e75",  /* 14: brcyan   */
-	//"#002b36",  /* 15: brwhite  */
+	"#eee8d5",  /*  0: black    */
+	"#dc322f",  /*  1: red      */
+	"#859900",  /*  2: green    */
+	"#b58900",  /*  3: yellow   */
+	"#268bd2",  /*  4: blue     */
+	"#d33682",  /*  5: magenta  */
+	"#2aa198",  /*  6: cyan     */
+	"#073642",  /*  7: white    */
+	"#fdf6e3",  /*  8: brblack  */
+	"#cb4b16",  /*  9: brred    */
+	"#93a1a1",  /* 10: brgreen  */
+	"#839496",  /* 11: bryellow */
+	"#657b83",  /* 12: brblue   */
+	"#6c71c4",  /* 13: brmagenta*/
+	"#586e75",  /* 14: brcyan   */
+	"#002b36",  /* 15: brwhite  */
 };
 
 /* Terminal colors for alternate (dark) palette */
@@ -157,25 +133,16 @@ static const char *altcolorname[] = {
 	"#6c71c4",  /* 13: brmagenta*/
 	"#93a1a1",  /* 14: brcyan   */
 	"#fdf6e3",  /* 15: brwhite  */
-
-	[255] = 0,
-
-  "#002b36", /* background */
-  "#839496", /* foreground */
 };
 
 /*
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-//unsigned int defaultfg = 12;
-//unsigned int defaultbg = 8;
-//static unsigned int defaultcs = 14;
-//static unsigned int defaultrcs = 15;
-unsigned int defaultfg = 257;
-unsigned int defaultbg = 256;
-static unsigned int defaultcs = 257;
-static unsigned int defaultrcs = 256;
+unsigned int defaultfg = 12;
+unsigned int defaultbg = 8;
+static unsigned int defaultcs = 14;
+static unsigned int defaultrcs = 15;
 
 /*
  * Default shape of cursor
